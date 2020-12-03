@@ -3,7 +3,7 @@ describe('Application main view', () => {
     cy.visit('/')
   });
 
-  it('contains titel', () => {
+  it('contains title', () => {
     cy.get("section[name='title']")
       .should('contain', 'GitHub Search engine')
   });
